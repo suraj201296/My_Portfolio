@@ -56,6 +56,9 @@
     .skillBarText>p {
         font-size: 2vw;
     }
+    .skillbar {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width : 480px) {
@@ -69,4 +72,8 @@
     .skillBarText>h2 {
         font-size: 5vw;
     }
+    /* .skillBarText>a {
+        font-size: 5vw;
+    } */
+    
 }
