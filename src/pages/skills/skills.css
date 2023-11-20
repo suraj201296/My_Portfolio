@@ -65,15 +65,12 @@
     .skillBarText>p {
         font-size: 3vw;
     }
-    .skillBarImg {
+    /* .skillBarImg {
         height: 2,25rem;
         width: 2.25rem;
-    }
+    } */
     .skillBarText>h2 {
         font-size: 5vw;
     }
-    /* .skillBarText>a {
-        font-size: 5vw;
-    } */
     
 }
