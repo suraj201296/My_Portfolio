@@ -1,0 +1,160 @@
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 3rem; */
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+
+#clients {
+    padding: 2rem;
+    /* margin-top: 20px; */
+}
+
+#contacts {
+    padding-top: 3rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    justify-content: space-around;
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px 5px 0 0;
+}
+
+.css-19kzrtu {
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    height: 22rem;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: yellow !important;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.education li {
+    color: yellow;
+}
+
+.skillsets {
+    display: flex;
+    padding: 10px;
+}
+
+.skillset {
+    /* object-fit: cover; */
+    width: 65px;
+    height: 62px;
+    margin-top: 10px;
+}
+
+.skillname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 40px 5px 5px 
+}
+
+.skillname span {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.css-ahj2mt-MuiTypography-root .education{
+    margin-left: 30px !important;
+}
+
+@media screen and (max-width : 1000px) {
+    .aboutMe {
+        padding: 0px 55px 0px 65px;
+    } 
+}
+
+@media screen and (max-width : 650px) {
+    .css-19kzrtu {
+        overflow-y: scroll;
+    }
+}
